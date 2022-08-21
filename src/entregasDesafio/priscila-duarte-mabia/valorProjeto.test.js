@@ -1,5 +1,4 @@
 const {
-  calcularValorBaseProjeto,
   calcularValorTotalProjeto,
 } = require("../../dominio/calculadora/Projeto/valorProjeto");
 
