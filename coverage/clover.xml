@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1661012821111" clover="3.2.0">
+  <project timestamp="1661012821111" name="All files">
+    <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="13" coveredelements="9" complexity="0" loc="12" ncloc="12" packages="2" files="2" classes="2"/>
+    <package name="Hora">
+      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="valorHora.js" path="C:\Users\suporte\Documents\imersao-js-on22-oficina-2\src\dominio\calculadora\Hora\valorHora.js">
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="constantes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="constantes.js" path="C:\Users\suporte\Documents\imersao-js-on22-oficina-2\src\dominio\calculadora\constantes\constantes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
