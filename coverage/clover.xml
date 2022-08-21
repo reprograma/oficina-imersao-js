@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1661007342301" clover="3.2.0">
-  <project timestamp="1661007342301" name="All files">
-    <metrics statements="18" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1" elements="22" coveredelements="16" complexity="0" loc="18" ncloc="18" packages="3" files="3" classes="3"/>
+<coverage generated="1661104817825" clover="3.2.0">
+  <project timestamp="1661104817825" name="All files">
+    <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="41" coveredelements="41" complexity="0" loc="33" ncloc="33" packages="3" files="5" classes="5"/>
     <package name="Hora">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="valorHora.js" path="C:\Users\midia-pereira\Documents\Cursos\Reprograma\imersao-js-on22-oficina-2\src\dominio\calculadora\Hora\valorHora.js">
@@ -15,27 +15,48 @@
       </file>
     </package>
     <package name="Projeto">
-      <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="horasPorProjeto.js" path="C:\Users\midia-pereira\Documents\Cursos\Reprograma\imersao-js-on22-oficina-2\src\dominio\calculadora\Projeto\horasPorProjeto.js">
-        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+      </file>
+      <file name="pacote.js" path="C:\Users\midia-pereira\Documents\Cursos\Reprograma\imersao-js-on22-oficina-2\src\dominio\calculadora\Projeto\pacote.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="valorProjeto.js" path="C:\Users\midia-pereira\Documents\Cursos\Reprograma\imersao-js-on22-oficina-2\src\dominio\calculadora\Projeto\valorProjeto.js">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
       </file>
     </package>
     <package name="constantes">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="constantes.js" path="C:\Users\midia-pereira\Documents\Cursos\Reprograma\imersao-js-on22-oficina-2\src\dominio\calculadora\constantes\constantes.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
       </file>
     </package>
   </project>

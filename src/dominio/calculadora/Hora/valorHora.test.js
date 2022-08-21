@@ -5,7 +5,7 @@ describe('calcularValorPorHora', () => {
     expect(typeof calcularValorPorHora).toBe('function');
   })
 
-  it('Quao o valor hora de um sálario de 1500', () => {
+  it('deve calcular as horas gastas', () => {
     const salario = 1500   
     const resultado = 9
     expect(calcularValorPorHora(salario)).toBe(resultado)
