@@ -1,7 +1,9 @@
-//para rodar
-//npm test src/dominio/calculadora/Hora/valorHora.test.js
+/* para rodar: npm test src/dominio/calculadora/Hora/valorHora.test.js
+ */
 
-const { calcularValorPorHora } = require("../../dominio/calculadora/Hora/valorHora");
+const {
+  calcularValorPorHora,
+} = require("../../dominio/calculadora/Hora/valorHora");
 
 test("Qual o valor hora, de um salário de 1500", () => {
   const salario = 1500;
