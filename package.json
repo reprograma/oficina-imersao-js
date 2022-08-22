@@ -1,11 +1,12 @@
 {
-  "name": "aceleradora-js-desafio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "node": "14.15"
   }
 }
