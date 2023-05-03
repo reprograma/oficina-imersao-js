@@ -58,3 +58,20 @@ No meio do caminho, a desenvolvedora percebeu que o código não estava testado 
         ├── pacotetest.test.js
         └── valorProjeto.test.js
 ````
+
+## Versão do Node
+
+Caso a versão do seu node não seja compatível para rodar o projeto da oficina, recomendamos o uso do NVM - Node Version Manager. 
+Consulte a versão atual do node usando o comando `node -v` em seu terminal.
+
+Veja um passo a passo detalhado para realizar a instalação do NVM em diversos sistemas operacionais: 
+
+[Tutorial de instalação do NVM](https://www.treinaweb.com.br/blog/instalando-e-gerenciando-varias-versoes-do-node-js-com-nvm)
+
+Após a instalação do NVM para realizar a alteração da versão atual do node basta rodar dois comandos: 
+
+`nvm install v14.15.0`
+
+`nvm use v14.15.0`
+
+**A vantagem de utilizar o NVM é a possibilidade ter várias versões do node instaladas na sua máquina e alternar facilmente entre elas sempre que necessário.**
