@@ -7,5 +7,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node": "^14.15.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
