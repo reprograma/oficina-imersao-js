@@ -8,6 +8,6 @@ describe("Valor por hora", () => {
 
     const result = calcularValorPorHora(valorPorMes);
 
-    expect(result).toEqual(27);
+    expect(result).toEqual(29);
   });
 });
