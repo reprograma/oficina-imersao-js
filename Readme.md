@@ -47,16 +47,11 @@ No meio do caminho, a desenvolvedora percebeu que o código não estava testado 
 │           ├── pacote.js
 │           └── valorProjeto.js
 └── entregasDesafio
-    ├── exemplo-nome-sobrenome
-    │   ├── horasPorProjeto.test.js
-    │   ├── valorHora.test.js
-    │   ├── pacotetest.test.js
-    │   └── valorProjeto.test.js
-    └── exemplo-milena-martins
-        ├── horasPorProjeto.test.js
-        ├── valorHora.test.js
-        ├── pacotetest.test.js
-        └── valorProjeto.test.js
+    └── exemplo-nome-sobrenome
+       ├── horasPorProjeto.test.js
+       ├── valorHora.test.js
+       ├── pacotetest.test.js
+       └── valorProjeto.test.js
 ````
 
 ## Versão do Node
