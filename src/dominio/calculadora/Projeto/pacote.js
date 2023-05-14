@@ -5,5 +5,4 @@ const calcularPacote = (totalDeHorasPorProjeto) => {
     ([key, value]) => value >= totalDeHorasPorProjeto
   )[0];
 };
-
 exports.calcularPacote = calcularPacote;
