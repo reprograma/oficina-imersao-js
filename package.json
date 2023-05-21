@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "jest-w": "jest --watch"
+    "test": "jest"    
   },
   "keywords": [],
   "author": "",
