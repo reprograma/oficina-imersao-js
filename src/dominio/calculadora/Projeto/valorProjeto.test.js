@@ -9,7 +9,7 @@ describe('valor do projeto: pacote_basico', () => {
         pacote.calcularPacote.mockReturnValue('pacote_basico');//taxa contratual: 1.1
     })
     test('retornar valor total para um projeto dada as funcionalidades, usando pacote pacote_basico', () => {
-        // A soma dá 72
+      
         const funcionalidades = [
             'setup',
             'responsividade',
