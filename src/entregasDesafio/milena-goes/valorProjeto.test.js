@@ -22,5 +22,35 @@ describe("Valor total do projeto", ()=>{
         const result = calcularValorTotalProjeto(funcionalidades, valorHora)
         //verificacao
         expect(result).toEqual(3696)
-    })
+    });
+
+    test ("Retornar valor total de um projeto dado as funcionalidades e o valor hora da pessoa desenvolvedora",()=>{
+        //setup
+        const funcionalidades = [
+            "setup",
+            "formulario",
+            "responsividade",
+            "otimizacao_seo",
+            "construcao_1_pagina",
+            "integracao_mailchimp",
+            "ssr",
+            "integracao_api_propria"
+        ]
+        const valorHora = 50;
+        //acao
+        const result = calcularValorTotalProjeto(funcionalidades, valorHora)
+        //verificacao
+        expect(result).toEqual(5720)
+    });
+    test ("Retornar valor total de um projeto dado as funcionalidades e o valor hora da pessoa desenvolvedora",()=>{
+        //setup
+        const funcionalidades = [
+            "construcao_1_pagina"
+        ]
+        const valorHora = 30;
+        //acao
+        const result = calcularValorTotalProjeto(funcionalidades, valorHora)
+        //verificacao
+        expect(result).toEqual(264)
+    });
 })

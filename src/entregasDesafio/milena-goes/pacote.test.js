@@ -26,11 +26,17 @@ describe("Calcular pacote correto para cada projeto",()=>{
         expect(result).toEqual("pacote_intermediario")
     });
 
+    test("Retorna pacote intermediario caso o numero total de horas seja maior que 100",() =>{
+        const totalDeHorasPorProjeto = 156;
+        const result = calcularPacote(totalDeHorasPorProjeto)
+        expect(result).toEqual("pacote_intermediario")
+    });
+
     test("Retorna pacote premium caso o numero total de horas seja exatamente 200",() =>{
         const totalDeHorasPorProjeto = 200;
         const result = calcularPacote(totalDeHorasPorProjeto)
         expect(result).toEqual("pacote_premium")
-    })
+    });
 })
 
     
