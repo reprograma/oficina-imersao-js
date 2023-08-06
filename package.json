@@ -7,5 +7,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jest": "^29.6.2"
   }
 }
